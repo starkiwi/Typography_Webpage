@@ -1,0 +1,176 @@
+body {
+    background-color: #f8eee7;
+    margin: 0;
+}
+
+.wrapper {
+    margin: 0 13% 3% 13%;
+}
+
+header {
+    display: flex;
+    background-color: #94618e;
+    color: white;
+    padding: 1%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+header h1 {
+    font-family: "Oldenburg", serif;
+    font-size: 3em;
+    padding: 3% 2% 0 2%;
+}
+
+header p {
+    padding: 0 15%;
+}
+
+header #left_a {
+    vertical-align: middle;
+    padding: 0 2% 0 3%;
+    width: 17%;
+    float: left;
+}
+
+header #right_a {
+    vertical-align: middle;
+    padding: 0 2% 0 3%;
+    width: 17%;
+    float: right;
+}
+
+
+footer {
+    width: 100%;
+    background-color: #94618e;
+    color: white;
+    padding: 0.8%;
+    font-size: 0.9em;
+    bottom: 0;
+    left: 0;
+}
+
+footer a {
+    color: cornsilk;
+}
+
+
+h2 {
+    font-family: "Oldenburg", serif;
+    font-size: 2.1em;
+    padding: 3% 1% 0 1%;
+    color: #49274a;
+}
+
+h3 {
+    font-family: "Oldenburg", serif;
+    font-size: 1.8em;
+    padding: 3% 1% 0 1%;
+    color: #49274a;
+}
+
+p {
+    font-size: 1.2em;
+    font-family: "Nunito", sans-serif;
+    padding: 0 2%;
+}
+
+hr {
+    margin-bottom: 8%;
+    border-top: 0.2em dashed #dd924e;
+}
+
+button {
+    font-family: "Nunito", sans-serif;
+    margin: 1em 0;
+    font-size: 0.9em;
+    background-color: #94618e;
+    color: white;
+    border: 2px solid #ba84b4;
+    border-radius: 0.9em;
+    cursor: pointer;
+    padding: 0.6em 1em 0.6em 0.8em;
+    transition: all ease-in-out 0.2s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #cd9bc8;
+}
+
+a {
+    color: #234478;
+}
+
+a:hover {
+    color: #F93F3F;
+    text-decoration: none;
+}
+
+
+iframe {
+    margin: 3% auto;
+    display: block;
+    height: 450px;
+    width: 800px;
+    padding: 2%;
+    border: 0.2em dashed #dd924e;
+    font-size: larger;
+}
+
+#author {
+    font-size: 1em;
+    align-self: center;
+}
+
+#author img {
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 7%;
+    padding-right: 0.5em;
+}
+
+
+.left {
+    padding-bottom: 8%;
+}
+
+.left img {
+    vertical-align: middle;
+    float: right;
+    width: 36%;
+    padding: 1em;
+    margin-left: 2%;
+}
+
+.left .pull_quote {
+    color: #49274a;
+    align-self: center;
+    border: 0.2em dashed #dd924e;
+    margin: 3% 51% 3% 10%;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+
+.right {
+    padding-bottom: 8%;
+}
+
+.right img {
+    vertical-align: middle;
+    float: left;
+    width: 36%;
+    padding: 1em;
+    margin-right: 2%;
+}
+
+.right .pull_quote {
+    color: #49274a;
+    align-self: center;
+    border: 0.2em dashed #dd924e;
+    margin: 3% 10% 3% 51%;
+    text-align: center;
+    font-size: 1.4em;
+}
